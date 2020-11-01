@@ -1,3 +1,45 @@
 body{
-    color: #222324
+    background-color: #222324;
+    font-family: arial, helvetica, sans-serif;
+    color: #dfdfdf;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #222324;
+  }
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: dfdfdf;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+  }
+    
+
+a{
+    color: #c797f4;
+}
+
+header {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+
+#about-me {
+    margin: 35px 0px 24px 0px;
+}
+
+.wrap {
+    margin: auto;
+    width: 1080px;
 }
