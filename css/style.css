@@ -12,10 +12,12 @@ body{
 
 ul {
     list-style-type: none;
-    margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #222324;
+    display: flex;  
+    margin: 0;
+    justify-content: space-between;
   }
 
 li {
@@ -62,4 +64,8 @@ header {
     text-align: center;
     line-height: 24px;
     flex-shrink: 0;
+}
+
+#links {
+    margin: 35px auto;
 }
