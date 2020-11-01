@@ -1,7 +1,13 @@
+html, body {
+    height: 100%;
+}
+
 body{
     background-color: #222324;
     font-family: arial, helvetica, sans-serif;
     color: #dfdfdf;
+    display: flex;
+    flex-direction: column;
 }
 
 ul {
@@ -29,6 +35,10 @@ a{
     color: #c797f4;
 }
 
+main {
+    flex: 1 0 auto;
+}
+
 header {
     margin: auto;
     width: 50%;
@@ -37,9 +47,19 @@ header {
 
 #about-me {
     margin: 35px 0px 24px 0px;
+    
 }
 
 .wrap {
     margin: auto;
     width: 1080px;
+}
+
+.footer {
+    background-color: #1f1d1d63;
+    margin-top: 48px;
+    padding: 24px;
+    text-align: center;
+    line-height: 24px;
+    flex-shrink: 0;
 }
